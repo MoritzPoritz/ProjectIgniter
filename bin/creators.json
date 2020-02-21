@@ -1,0 +1,34 @@
+{
+    "standard": {
+        "parentPath": {
+            "value": "./",
+            "type": "dir"
+        },
+        "srcFolder": {
+            "value":"src",
+            "type": "dir"
+        },
+        "stylesFolder": {
+            "value": "src/styles",
+            "type": "dir"
+        },
+        "jsFolder": {
+            "value": "src/js",
+            "type": "dir"
+        },
+        "indexJS": {
+            "value": "src/js/index.js",
+            "type": "file"
+        },
+        "indexHTML": {
+            "value": "src/index.html",
+            "type": "file"
+        },
+        "stylesCSS": {
+            "value": "src/styles/styles.css",
+            "type": "file"
+        }
+    }
+
+
+}
