@@ -19,11 +19,14 @@ export async function createProject(options) {
    targetDirectory: options.targetDirectory || process.cwd(),
  };
 
- const currentFileUrl = import.meta.url;
+ //Error file path is wrong 
+// const currentFileUrl = import.meta.url;
+const currentFileUrl = __dirname;
+
  console.log("Current", currentFileUrl)
  const templateDir = path.resolve(
    new URL(currentFileUrl).pathname,
-   '../../templates',
+   '../templates',
    options.template.toLowerCase()
  );
  console.log(templateDir);
