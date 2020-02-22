@@ -19,8 +19,6 @@ export async function createProject(options) {
    targetDirectory: options.targetDirectory || process.cwd(),
  };
 
- //Error file path is wrong 
-// const currentFileUrl = import.meta.url;
 const currentFileUrl = __dirname;
 
  console.log("Current", currentFileUrl)
